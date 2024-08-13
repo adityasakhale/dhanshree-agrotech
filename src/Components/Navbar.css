@@ -1,0 +1,139 @@
+.nav-links-mob li {
+    margin: 0; /* Remove any extra margin */
+    padding: 0px 0; /* Decrease this value to reduce space between items */
+  }
+  
+  .nav-lnk {
+    font-size: 40px; /* Keep the font size consistent */
+    margin: 0; /* Ensure no extra margin */
+    padding: 0;
+  }
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+   
+}
+
+.main-nav{
+    position:fixed;
+    background-color: #e1dddd;
+    height: 10rem;
+    width: 100%;
+    display: grid;
+    
+    border-bottom:3px solid rgb(24, 23, 23);
+    grid-template-columns:   1fr   1fr 10rem ;
+    
+}
+.main-nav ul{
+    display: flex;
+    margin-left: 450px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -18px;
+    
+}
+.logo{
+    padding: 0 5rem;
+    align-items: center;
+    display: grid;
+    
+}
+.dlogo{
+    height: 130px;
+    margin-left: 5rem;
+}
+.nav-lnk:hover{
+color: #39728b;
+}
+
+    .logo {
+        padding-left: 10px; 
+    }
+
+    .nav-mob-open{
+        display: none;
+    }
+    .nav-mob-close{
+        display: none;
+    }
+
+
+    @media(max-width:768px){
+
+        .dlogo {
+            height: 160px;
+            margin-left: 10px;
+        }
+    
+        .main-nav {
+            position: fixed;     
+            height: 180px;
+        }
+    
+        .nav-mob-open {
+            display: grid;
+            position: fixed;
+            width: 90px;
+            right: 80px;
+            top: 60px;
+        }
+    
+        .nav-mob-close {
+            display: block;
+            position: relative;
+            top: 80px;
+            left: 50px;
+            width: 70px;
+        }
+    
+        .nav-links-mob {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: left;
+    
+            position: fixed;
+            flex-direction: column;
+            align-items: start;
+            top: 0px;
+            background-color: rgba(225, 221, 221, 0.9);
+            width: 350px;
+            height: 100%;
+            z-index: 2;
+            transition: right 0.5s;
+            right: -350px;
+            grid-template-columns: 1fr 1fr;
+    
+            .nav-mob-open {
+                display: none;
+            }
+        }
+    
+        .sidebar {
+            font-size: 40px;
+            font-weight: bold;
+            padding-left: 50px;
+        }
+            .nav-links-mob li{
+            margin: -100px; /* Ensure no extra margin */
+            padding: 450px 0; /* Decrease padding for reduced space between items */
+        }
+    
+        .nav-lnk {
+            font-size: 80px; /* Keep the font size consistent */
+            margin: 0px; /* Ensure no extra margin */
+            padding: 0;
+        }
+    }
+    
