@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dhanshree-agrotech/static/css/main.566c3449.css",
+    "main.js": "/dhanshree-agrotech/static/js/main.52767ddf.js",
+    "static/js/453.31b1302c.chunk.js": "/dhanshree-agrotech/static/js/453.31b1302c.chunk.js",
+    "static/media/menu_close.svg": "/dhanshree-agrotech/static/media/menu_close.d8e02287f32a3069e46582eec9e3948d.svg",
+    "index.html": "/dhanshree-agrotech/index.html",
+    "static/media/menu_open.svg": "/dhanshree-agrotech/static/media/menu_open.24f2445cf021b472cebe98624cc44bfc.svg",
+    "main.566c3449.css.map": "/dhanshree-agrotech/static/css/main.566c3449.css.map",
+    "main.52767ddf.js.map": "/dhanshree-agrotech/static/js/main.52767ddf.js.map",
+    "453.31b1302c.chunk.js.map": "/dhanshree-agrotech/static/js/453.31b1302c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.566c3449.css",
+    "static/js/main.52767ddf.js"
+  ]
+}
